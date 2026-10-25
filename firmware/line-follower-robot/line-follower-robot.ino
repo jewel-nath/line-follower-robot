@@ -1,3 +1,6 @@
+// A PID line follower on an eight-sensor QTR array. The sensor setup, the calibration loop and the line
+// reading follow the QTRAExample of Pololu's QTRSensors library
+// (https://github.com/pololu/qtr-sensors-arduino), MIT licence, Copyright (c) 2008-2019 Pololu Corporation.
 #include <QTRSensors.h>
 
 QTRSensors qtr; 
